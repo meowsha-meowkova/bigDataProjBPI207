@@ -1,4 +1,11 @@
-*.txt !text !filter !merge !diff
+*.gitignore filter=lfs diff=lfs merge=lfs -text
+*.md filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.py filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
 *.py !text !filter !merge !diff
+*.txt !text !filter !merge !diff
 .gitignore !text !filter !merge !diff
 *.md !text !filter !merge !diff
