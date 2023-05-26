@@ -43,7 +43,7 @@ cur.execute(create_table)
 conn.commit()
 
 import json
-import re
+
 # the json file is a dictionary with ids as keys and game info as values
 
 with open("steam_store_data.json") as f:
